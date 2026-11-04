@@ -31,8 +31,7 @@ HERE = Path(__file__).resolve().parent
 WEBSITE_LIST_FILE = HERE / "website_publications.txt"
 
 # OpenAlex requires a free API key
-OPENALEX_API_KEY = "Enter your API key from website"
-
+OPENALEX_API_KEY = "PASTE_YOUR_KEY_HERE"
 # Words that identify the lab's institutions in OpenAlex affiliation names.
 # Used to pick the right author profile when several people share a name.
 AFFILIATION_HINTS = ["ufaz", "french-azerbaijani", "azerbaijan", "baku","insa rouen", "litis", "strasbourg", "york",]
